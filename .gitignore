@@ -21,3 +21,5 @@ examples/express/node_modules
 .vscode/
 yarn-error.log
 tsconfig.tsbuildinfo
+
+/usr/bin/pkg

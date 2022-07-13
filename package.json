@@ -54,6 +54,7 @@
     "json-stable-stringify": "^1.0.1",
     "lint-staged": "^10.5.4",
     "mkdirp": "^1.0.4",
+    "pkg": "5.7.0",
     "prettier": "2.6.2",
     "rimraf": "^3.0.2",
     "simple-git-hooks": ">=2.7.0",

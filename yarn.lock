@@ -2160,6 +2160,26 @@ pkg-fetch@3.4.1:
     tar-fs "^2.1.1"
     yargs "^16.2.0"
 
+pkg@5.7.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/pkg/-/pkg-5.7.0.tgz#6422df05e8aa147764be6ef912921d0fa719ea95"
+  integrity sha512-PTiAjNq/CGAtK5qUBR6pjheqnipTFjeecgSgIKEcAOJA4GpmZeOZC8pMOoT0rfes5vHsmcFo7wbSRTAmXQurrg==
+  dependencies:
+    "@babel/parser" "7.17.10"
+    "@babel/types" "7.17.10"
+    chalk "^4.1.2"
+    escodegen "^2.0.0"
+    fs-extra "^9.1.0"
+    globby "^11.1.0"
+    into-stream "^6.0.0"
+    is-core-module "2.9.0"
+    minimist "^1.2.6"
+    multistream "^4.1.0"
+    pkg-fetch "3.4.1"
+    prebuild-install "6.1.4"
+    resolve "^1.22.0"
+    stream-meter "^1.0.4"
+
 please-upgrade-node@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz#aeddd3f994c933e4ad98b99d9a556efa0e2fe942"

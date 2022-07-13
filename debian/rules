@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+SHELL := /bin/bash
+
+override_dh_strip:
+
+override_dh_auto_build:
+
+override_dh_auto_install:
+	install -Dpm755 -d debian/tmp/usr/bin
+	install -Dpm755 -t debian/tmp/usr/bin usr/bin/pkg
+
+override_dh_auto_test:
+
+override_dh_auto_clean:
+
+%:
+	dh $@

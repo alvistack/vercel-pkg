@@ -1,0 +1,5 @@
+pkg: copyright-without-copyright-notice
+pkg: initial-upload-closes-no-bugs
+pkg: no-manual-page
+pkg: statically-linked-binary
+pkg: zero-byte-file-in-doc-directory
